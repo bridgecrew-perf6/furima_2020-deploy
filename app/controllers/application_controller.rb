@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
-  include ActiveSupport::LoggerSilence
-  
+  # include ActiveSupport::LoggerSilence
+
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   protected
